@@ -216,6 +216,7 @@ namespace Microsoft.Test.Xaml.Parser.MethodTests.XmlContent
             {
                 //Pass null to both dependencyObject and value in SetXmlNamespaceMaps, this will throw exception
                 XmlAttributeProperties.SetXmlNamespaceMaps(null, null);
+
             }
             catch (Exception e)
             {
